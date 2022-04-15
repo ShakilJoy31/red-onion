@@ -1,10 +1,11 @@
 import React from 'react';
 import backgroundImg from '../../../images/bannerbackground.png'; 
+import BottomHome from '../BottomHome/BottomHome';
 import MiddleHome from '../MiddleHome/MiddleHome';
 
 const UpperHome = () => {
     return (
-        <div>
+            <div>
             <div className='d-flex pt-5 justify-content-center' style={{backgroundImage: `url(${backgroundImg})`, backgroundRepeat: 'no-repeat', height: '800px'}}>
             <div className='pt-5'>
                 <h1>Best Food Waiting for your Stomach</h1>
@@ -15,7 +16,7 @@ const UpperHome = () => {
             </div>
         </div>
             <MiddleHome></MiddleHome>
-        </div>
+        </div>  
     );
 };
 

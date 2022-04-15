@@ -10,42 +10,42 @@ const Lunch = () => {
     return (
         <div>
             <div className='row g-4'>
-                <div className='col-lg-4 col-md-6 col-sm-12'>
+                <div className='col-lg-4 col-md-6 col-sm-12 hover-class'>
                     <img className='w-50' src={picture1} alt="" />
                     <h3>Beef Steak</h3>
                     <p>How We dream about our future</p>
                     <h1>$15.99</h1>
                 </div>
 
-                <div className='col-lg-4 col-md-6 col-sm-12'>
+                <div className='col-lg-4 col-md-6 col-sm-12 hover-class'>
                     <img className='w-50' src={picture2} alt="" />
                     <h3>Honey-Soy-Glazed with Peppers</h3>
                     <p>How We dream about our future</p>
                     <h1>$7.99</h1>
                 </div>
 
-                <div className='col-lg-4 col-md-6 col-sm-12'>
+                <div className='col-lg-4 col-md-6 col-sm-12 hover-class'>
                     <img className='w-50' src={picture3} alt="" />
                     <h3>Tarragon-Rubbed-Salmon</h3>
                     <p>How We dream about our future</p>
                     <h1>$6.99</h1>
                 </div>
 
-                <div className='col-lg-4 col-md-6 col-sm-12'>
+                <div className='col-lg-4 col-md-6 col-sm-12 hover-class'>
                     <img className='w-50' src={picture4} alt="" />
                     <h3>Indian Lunch</h3>
                     <p>How We dream about our future</p>
                     <h1>$8.99</h1>
                 </div>
 
-                <div className='col-lg-4 col-md-6 col-sm-12'>
+                <div className='col-lg-4 col-md-6 col-sm-12 hover-class'>
                     <img className='w-50' src={picture5} alt="" />
                     <h3>Fried Chicken Bento</h3>
                     <p>How We dream about our future</p>
                     <h1>$25.50</h1>
                 </div>
 
-                <div className='col-lg-4 col-md-6 col-sm-12'>
+                <div className='col-lg-4 col-md-6 col-sm-12 hover-class'>
                     <img className='w-50' src={picture6} alt="" />
                     <h3>Healthy Meal Plan</h3>
                     <p>How We dream about our future</p>
